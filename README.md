@@ -30,4 +30,4 @@ The model has 6 layers of ResNet-18 to extract features from the grayscale image
 ![9](https://user-images.githubusercontent.com/44408619/234953801-aaa66708-fde0-4340-a800-0f7fd0383763.jpg)
 
 ## Final Thoughts
-The model does a good job at coloring most of the basset hound images. The model struggles on green grass and blue sky backgrounds. The reason for the maybe the small size of training data. Also the model can be trained for more epochs with a larger dataset for better performance. The model can be further improved by adding some novel feature to get the semantic information from the image
+The model does a good job at coloring most of the basset hound images. The model struggles on green grass and blue sky backgrounds. The reason for the maybe the small size of training data. Also the model can be trained for more epochs with a larger dataset for better performance. The model can be further improved by adding some novel feature to get the semantic information from the image.
