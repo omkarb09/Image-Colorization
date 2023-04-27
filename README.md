@@ -2,7 +2,7 @@
 
 In image colorization, the goal is to produce a colored image given a grayscale input image.
 This problem is challenging because it is multimodal -- a single grayscale image may correspond to many plausible colored images.
-Deep neural networks have shown remarkable success in automatic image colorization (ability to capture semantic information.
+Deep neural networks have shown remarkable success in automatic image colorization (ability to capture semantic information).
 
 ## Dataset
 I have used images from the Oxford IIIT pet dataset: https://www.kaggle.com/datasets/tanlikesmath/the-oxfordiiit-pet-dataset.
@@ -25,3 +25,9 @@ The model has 6 layers of ResNet-18 to extract features from the grayscale image
 ![2](https://user-images.githubusercontent.com/44408619/234937121-eec374ab-4f69-4043-b8b0-f3fa31b6989a.jpg)
 ![4](https://user-images.githubusercontent.com/44408619/234937147-ffced2ef-413f-4923-a267-3fe21a141ed7.jpg)
 ![6](https://user-images.githubusercontent.com/44408619/234937214-30843703-253e-4b22-b4a7-73a422a78daa.jpg)
+![7](https://user-images.githubusercontent.com/44408619/234953695-8ab047fc-2f20-455a-abbc-10c3aaf8899b.jpg)
+![8](https://user-images.githubusercontent.com/44408619/234953725-9f4beca0-2af6-468b-bd79-52dca1c5f5fc.jpg)
+![9](https://user-images.githubusercontent.com/44408619/234953801-aaa66708-fde0-4340-a800-0f7fd0383763.jpg)
+
+## Final Thoughts
+The model does a good job at coloring most of the basset hound images. The model struggles on green grass and blue sky backgrounds. The reason for the maybe the small size of training data. Also the model can be trained for more epochs with a larger dataset for better performance. The model can be further improved by adding some novel feature to get the semantic information from the image
