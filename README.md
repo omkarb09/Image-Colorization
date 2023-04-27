@@ -1,4 +1,4 @@
-# Image Colorization using CNN
+# Image Colorization with CNN
 
 In image colorization, the goal is to produce a colored image given a grayscale input image.
 This problem is challenging because it is multimodal -- a single grayscale image may correspond to many plausible colored images.
